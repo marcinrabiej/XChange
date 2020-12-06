@@ -121,5 +121,4 @@ public class PoloniexStreamingExchange extends PoloniexExchange implements Strea
   public Observable<State> connectionStateObservable() {
     return streamingService.subscribeConnectionState();
   }
-
 }
